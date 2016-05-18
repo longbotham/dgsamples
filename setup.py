@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dgsamples',
-    version='1.0.0',
+    version='1.0.1',
     author='Nathan Longbotham',
     author_email='nlongbotham@digitalglobe.com',
     packages=find_packages(),
