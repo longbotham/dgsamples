@@ -4,5 +4,5 @@
 # access to an OrderedBunch is limited due to the key containing characters
 # that are not allowed in a python variable .
 
-poly_geojson = "wv2_1k_poly.geojson";
-poly_shp = "wv2_1k_poly.shp";
+poly_geojson_utm = "wv2_1k_poly_32613.geojson";
+poly_geojson_latlon = "wv2_1k_poly_4326.geojson";
