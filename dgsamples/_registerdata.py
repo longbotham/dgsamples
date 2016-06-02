@@ -1,6 +1,6 @@
-import os as os
+import os
 import tinytools as tt
-import inspect as inspect
+import inspect
 
 def _runit():
     # Go into each directory and look for interesting things per pseudo-code:
