@@ -3,9 +3,12 @@ from setuptools import setup, find_packages
 
 install_requires = ['tinytools']
 
+# import __version__
+exec(open('dgsamples/_version.py').read())
+
 setup(
     name='dgsamples',
-    version='1.0.1',
+    version=__version__,
     author='Nathan Longbotham',
     author_email='nlongbotham@digitalglobe.com',
     packages=find_packages(),
