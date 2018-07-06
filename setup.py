@@ -10,7 +10,7 @@ setup(
     name='dgsamples',
     version=__version__,
     author='Nathan Longbotham',
-    author_email='nlongbotham@digitalglobe.com',
+    author_email='longbotham@gmail.com',
     packages=find_packages(),
     description='Sample image chips and vectors that can be used for '\
                 'unit testing',
