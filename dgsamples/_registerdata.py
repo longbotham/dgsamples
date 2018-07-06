@@ -61,7 +61,7 @@ def _runit():
         except:
             name_map = {}
 
-        for k,v in name_map.iteritems():
+        for k,v in name_map.items():
             v = tt.files.search(d,'*'+v,depth=3)
             if v[0] in pkg_samples[name]['files']:
                 pkg_samples[name][k] = v[0]
